@@ -1,22 +1,20 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Gabriel Baird
+bio: Writer. Mathematician
 
-# twitter summary info
-description: A blog about technology and stuff related
 
 # if it's an external image, update below for true
 # better with square images
-external-image: false
+external-image: true
 picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
-resume-external: true
+resume: false
+resume-external: false
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: https://gbaird.github.io
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
