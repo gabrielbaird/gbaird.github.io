@@ -6,23 +6,23 @@ pagination:
   enabled: true
 ---
 <section class="list">
-	{% if site.shortfic.size == 0 %}
+	{% if site.shortfics.size == 0 %}
 		<p class="text-center">Nothing published yet!</p>
 	{% elsif site.pagination.enabled %}
-		{% for post in paginator.posts %}
+		{% for post in paginator.shortfics %}
 			{% if post.category == 'blog' %}
 				{% if post.hidden != true %}
-					{% include shortfiction.html %}
+					{% include blog-post.html %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}
 
 		{% include pagination.html%}
 	{% else %}
-		{% for post in site.shortfic %}
+		{% for post in site.shortfics %}
 			{% if post.category == 'shortfiction' %}
 				{% if post.hidden != true %}
-					{% include shortfiction.html %}
+					{% include blog-post.html %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}
