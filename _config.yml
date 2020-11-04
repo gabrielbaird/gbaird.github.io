@@ -74,7 +74,7 @@ pagination:
 # if you don't need projects, comment the *projects* configs below
 # projects: true
 shortfiction: true
-
+silt: true
 # if you don't need "about" or "blog", comment them out below
 about: true
 # blog: true
