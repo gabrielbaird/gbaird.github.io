@@ -1,6 +1,6 @@
 # main text of home
 name: Gabriel Baird
-bio: Writer. Mathematician
+bio: Writer
 
 
 # if it's an external image, update below for true
@@ -28,8 +28,8 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  shortname: gabrielbaird # enter this from your disqus account
+  categories: [shortfiction] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 facebook: myfacebook
@@ -53,11 +53,10 @@ email: myemail@gmail.com
 authors:
   gbaird:
     name: Gabriel Baird
-    bio: A Man who travels the world eating noodles
+    bio: A witness.
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: johndoe
-  
+    
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
