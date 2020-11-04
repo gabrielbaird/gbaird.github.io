@@ -10,9 +10,9 @@ pagination:
 	{% if site.posts.size == 0 %}
 		<p class="text-center">Nothing published yet!</p>
 	{% elsif site.pagination.enabled %}
-		{% for p in paginator.posts %}
-			{% if p.category == 'blog' %}
-				{% if p.hidden != true %}
+		{% for post in paginator.posts %}
+			{% if post.category == 'blog' %}
+				{% if post.hidden != true %}
 					{% include blog-post.html %}
 				{% endif %}
 			{% endif %}
@@ -20,9 +20,9 @@ pagination:
 
 		{% include pagination.html%}
 	{% else %}
-		{% for p in site.posts %}
-			{% if p.category == 'blog' %}
-				{% if p.hidden != true %}
+		{% for post in site.posts %}
+			{% if post.category == 'blog' %}
+				{% if post.hidden != true %}
 					{% include blog-post.html %}
 				{% endif %}
 			{% endif %}
