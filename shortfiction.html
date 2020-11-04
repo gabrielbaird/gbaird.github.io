@@ -1,28 +1,29 @@
-
 ---
-
+# blog page must be named index.html and in its own folder to support pagination
+# https://jekyllrb.com/docs/pagination/
+layout: page
 title: Short Fiction
 pagination:
   enabled: true
 ---
 <section class="list">
-	{% if site.shortfics.size == 0 %}
+	{% if site.posts.size == 0 %}
 		<p class="text-center">Nothing published yet!</p>
 	{% elsif site.pagination.enabled %}
-		{% for post in paginator.shortfics %}
-			{% if post.category == 'shortfiction' %}
+		{% for post in paginator.posts %}
+			{% if post.category == 'shortfic' %}
 				{% if post.hidden != true %}
-					{% include shortfic-post.html %}
+					{% include blog-post.html %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}
 
 		{% include pagination.html%}
 	{% else %}
-		{% for post in site.shortfics %}
-			{% if post.category == 'shortfiction' %}
+		{% for post in site.posts %}
+			{% if post.category == 'shortfic' %}
 				{% if post.hidden != true %}
-					{% include shortfic-post.html %}
+					{% include blog-post.html %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}
