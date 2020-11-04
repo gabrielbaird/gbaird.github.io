@@ -12,7 +12,7 @@ pagination:
 		{% for post in paginator.shortfics %}
 			{% if post.category == 'shortfiction' %}
 				{% if post.hidden != true %}
-					{% include blog-post.html %}
+					{% include shortfic-post.html %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}
@@ -22,7 +22,7 @@ pagination:
 		{% for post in site.shortfics %}
 			{% if post.category == 'shortfiction' %}
 				{% if post.hidden != true %}
-					{% include blog-post.html %}
+					{% include shortfic-post.html %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}
