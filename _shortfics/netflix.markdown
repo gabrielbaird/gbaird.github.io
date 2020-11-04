@@ -1,6 +1,6 @@
 ---
 title: "I Could Be Watching Netflix"
-layout: post
+layout: shortfic-post
 date: 2020-11-03
 headerImage: false
 tag:
