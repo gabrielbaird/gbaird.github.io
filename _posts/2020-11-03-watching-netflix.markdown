@@ -8,7 +8,7 @@ tag:
 - COVID19 pandemic
 star: true
 category: blog
-author: Gabriel Baird
+author: gbaird
 description: Short fiction
 ---
 
