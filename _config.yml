@@ -14,7 +14,7 @@ resume: false
 resume-external: false
 resume-url: https://google.com/?q=my+resume
 
-url: https://gabrielwbaird.com/
+url: https://gabrielwbaird.com
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
