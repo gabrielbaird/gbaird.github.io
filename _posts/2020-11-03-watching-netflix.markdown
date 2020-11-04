@@ -7,7 +7,7 @@ tag:
 - California fires
 - COVID19 pandemic
 star: true
-category: blog
+category: shortfic
 author: gbaird
 description: Short fiction
 ---
