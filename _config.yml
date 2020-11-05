@@ -29,7 +29,7 @@ permalink: /:title/
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: gbaird # enter this from your disqus account
-  categories: [shortfiction] # only show disqus for posts that have these categories
+  categories: [shortfiction, silt] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
@@ -55,7 +55,7 @@ authors:
     name: Gabriel Baird
     bio: A witness.
     external-image: false
-    picture: assets/images/profile.jpg
+    picture: assets/images/Untitled_Artwork.jpg
     
 
 # do you want a larger site? change the option below
