@@ -4,12 +4,16 @@ layout: post
 date: 2020-11-04
 headerImage: false
 tag:
-- California fires
-- COVID19 pandemic
+- plant science
+- interview
+- blackberries
+- crocus
+- bonsai
 star: true
 category: shortfic
 author: gbaird
 description: Short fiction
+
 ---
 
 ### A Short Interview with a Plant Scientist
