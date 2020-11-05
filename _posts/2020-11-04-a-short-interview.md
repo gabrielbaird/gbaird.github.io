@@ -16,8 +16,6 @@ description: Short fiction
 
 ---
 
-### A Short Interview with a Plant Scientist
-
 
 <i><b>Gabriel:</b> Describe your personality in three plants or less.</i>
 
