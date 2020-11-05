@@ -12,7 +12,6 @@ author: gbaird
 description: Short fiction
 ---
 
-### I could be watching Netflix
 
 The streetlights here are too new; remember the sodium bulbs they used to use? They made everything that soft, quiet, yellow. The only quiet color of the 80s. These lights are brand-fuckin’-new. LED or something, and they light up the arboreal canopy, all of it. Six different bulbs per post and each leaf blazes, belly and back in flat platinum. Their pixelated shadows all across the sidewalks. I used to wonder about the shadows. I'd watch my feet as I stumbled home after a vicious Saturday night. On pre-dawn slogs to adjust delicate experiments. It took me six years to look up. That was on purpose, mind. Some mystery is important.
 
